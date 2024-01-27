@@ -1,20 +1,20 @@
-# Build RPG - Dragon Repeller With JavaScript
-
+# Build RPG - Dragon Repeller With JavaScript (Part 1)
 
 ### Introduction
 
 Dalam project latihan ini, Kita akan mempelajari konsep pemrograman dasar dalam JavaScript dengan membuat coding Role Playing Game Kita sendiri. Kita akan belajar cara bekerja dengan array, string, objek, fungsi, perulangan, pernyataan if/else, dan banyak lagi.
 
-Hasil akhir dari project ini kita akan mendapatkan pemahaman mengenai dasar pemograman dalam JavaScript. 
+Hasil akhir dari project ini kita akan mendapatkan pemahaman mengenai dasar pemograman dalam JavaScript.
 
 ![image alt text](https://imgur.com/RoQyqYQ.gif "Final Result")
 
 ## Prerequisites
 
 Sebelum mulai kita perlu menyiapkan:
-* Teks Editor [VS Code]
-* Web Browser [Google Chrome]
-* Live Server [Extension VS Code]
+
+- Teks Editor [VS Code]
+- Web Browser [Google Chrome]
+- Live Server [Extension VS Code]
 
 ## Step 1 — Clone Template Project
 
@@ -51,6 +51,7 @@ let inventory;
 ```
 
 pada variable `inventory` assign array dengan value `stick`, `dagger`, dan`sword`
+
 ```
 let inventory = ["stick","dagger","sword"];
 ```
@@ -62,6 +63,7 @@ let inventory = ["stick"];
 ```
 
 Full kode variable
+
 ```
 let xp = 0;
 let health = 100;
@@ -73,6 +75,7 @@ let inventory = ["stick"];
 ```
 
 ## Step 3 — DOM In JavaScript
+
 Buat variabel button1 dan gunakan querySelector() untuk menetapkannya sebagai elemen dengan id button1. Perlu diingat bahwa pemilih id CSS diawali dengan tanda #
 
 ```
@@ -80,10 +83,12 @@ const button1 = document.querySelector("#button1");
 ```
 
 Gunakan querySelector() untuk mendapatkan dua elemen button lainya dengan menggunakan id button2 dan button3. Simpan dalam variabel bernama button2 dan button3. Ingat untuk menggunakan const
+
 ```
 const button2 = document.querySelector("#button2");
 const button3 = document.querySelector("#button3");
 ```
+
 Sama seperti yang kita lakukan pada button, buat variae untuk id berikut menggunakan querySelector():
 
 `text`, `xpText`, `healthText`, `goldText`, `monsterStats`, dan `monsterName`.
@@ -101,7 +106,6 @@ Terakhir, gunakan `querySelector()` untuk mendapatkan elemen `#monsterHealth`. K
 
 Deklarasikan variabel baru dengan kata keyword `const` dan beri nama `monsterHealthText`.
 
-
 ```
 const monsterHealthText = document.querySelector("#monsterHealth");
 ```
@@ -117,8 +121,6 @@ function goStore(){
 console.log("Going to store.");
 }
 ```
-
-
 
 Kemudian buat function `goCave` yang mencetak `Going to cave.` di console.
 
@@ -150,11 +152,12 @@ Dengan menggunakan sintaks yang sama, atur properti onclick pada button2 dan but
 button2.onclick = goCave;
 button3.onclick = fightDragon;
 ```
+
 Setelah Kita selesai melakukannya, buka konsol Kita dan coba klik tombol-tombol pada project Kita.
 
 Properti innerText di DOM mengontrol teks yang muncul dalam elemen HTML.
 
------------------------------------------------------
+---
 
 Ketika seorang pemain mengklik button Go to store, kita ingin mengubah button dan teks. Hapus kode di dalam function goStore dan tambahkan baris yang memperbarui teks button1 dengan `Buy 10 health (10 gold)`
 
@@ -170,6 +173,7 @@ Sekarang, tambahkan kode untuk memperbarui teks button2 menjadi `Buy weapon (30 
   button2.innerText = "Buy weapon (30 gold)";
   button3.innerText = "Go to town square";
 ```
+
 ## Conclusion
 
-Pada materi ini kita dapat pemahaman mengenai materi `Variable`, `Array`, `DOM`, `Event Handling` dan juga `Function`  pada JavaScript
+Pada materi ini kita dapat pemahaman mengenai materi `Variable`, `Array`, `DOM`, `Event Handling` dan juga `Function` pada JavaScript
