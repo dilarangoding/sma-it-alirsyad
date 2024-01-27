@@ -14,7 +14,7 @@ Fungsi adalah sub-program yang bisa digunakan kembali baik di dalam program itu 
 
 Fungsi dideklarasikan dengan keyword function dan nama fungsinya. Nama fungsi selalu diikuti dengan tanda kurung (parentheses) tanpa spasi, lalu terdapat sepasang kurung kurawal yang berisi logika dari fungsi tersebut.
 
-```
+```JavaScript
 
 	function nameOfFunction() {
 		// Code to be executed
@@ -24,7 +24,7 @@ Fungsi dideklarasikan dengan keyword function dan nama fungsinya. Nama fungsi se
 
 Contoh fungsi untuk mencetak kata `Hello World` di console
 
-```
+```JavaScript
 
 	// Initialize greeting function
 	function greet() {
@@ -36,7 +36,7 @@ Contoh fungsi untuk mencetak kata `Hello World` di console
 
 Pada contoh kode diatas kita mempunyai function dengan nama `greet` function tersebut tidak akan dieksekusi sampai kita memangil function tersebut. Kita dapat memanggil sebuah function dengan menuliskan nama function diikuti dengan tanda kurung.
 
-```
+```JavaScript
 	
 	greet()
 	
@@ -44,7 +44,7 @@ Pada contoh kode diatas kita mempunyai function dengan nama `greet` function ter
 
 Sekarang kita dapat mendefinisikan function kita dan memanggilnya
 
-```
+```JavaScript
 
 	// Initialize greeting function
 	function greet() {
@@ -78,7 +78,7 @@ Kita akan menambahkan parameter ke dalam function kita, yaitu `name`, untuk mere
 
 Kita sudah menambahkan sebuah parameter ke function kita, lalu bagaimana caranya untuk memanggil function yang memiliki parameter? Caranya cukup sederhana seperti memanggil function biasa pada umumnya namun kita perlu memberikan nilai atau argumen ke dalam function kita. **Argument merupakan nilai atau expression yang dimasukkan ke dalam fungsi**
 
-```
+```JavaScript
 	
 	// Invoke greet function with "Sammy" as the argument
 	greet("Sammy");
@@ -89,7 +89,7 @@ Kita sudah menambahkan sebuah parameter ke function kita, lalu bagaimana caranya
 
 Kode lengkapnya
 
-```
+```JavaScript
 
 	// Initialize custom greeting function
 	function greet(name) {
@@ -111,7 +111,7 @@ Sebuah function dapat memiliki banyak sekali parameter (tergantung kebutuhan kit
 Pengembalian nilai pada fungsi menggunakan kata kunci `return` kemudian diikuti dengan nilai atau variabel yang akan dikembalikan. Contoh:
 
 
-```
+```JavaScript
 
 	// Initialize add function
 	function add(x, y) {

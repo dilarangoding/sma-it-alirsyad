@@ -9,7 +9,7 @@ Di-part 1 kita sudah setup project dan membuat functionalitas program Dragon Rep
 
 Pada function `goStore` update property `onclick` kita untuk menjalakan button `buyHealth`, `buyWeapon` , `goTown`. Lalu ubah display text pada menu `goStore` menjadi `You enter the store.` 
 
-```
+```JavaScript
 
 	function goStore() {
 	  button1.innerText = "Buy 10 health (10 gold)";
@@ -32,7 +32,7 @@ Pada function `goStore` update property `onclick` kita untuk menjalakan button `
 Buat 3 function kosong baru dengan nama function `buyHealth` , `buyWeapon` , `goTown`. 
 
 
-```
+```JavaScript
 
 	function goTown(){
 
@@ -52,7 +52,7 @@ Buat 3 function kosong baru dengan nama function `buyHealth` , `buyWeapon` , `go
 Pindahkan function `goTown` diatas function `goStore` lalu copy dan paste seluruh kode di dalam function `goStore` ke dalam function `goTown`
 
 
-```
+```JavaScript
 
 	function goTown(){
 		button1.innerText = "Buy 10 health (10 gold)";
@@ -81,7 +81,8 @@ Didalam function `goTown` ubah innerText tiap button menjadi `Go to Store`, `Go 
 
 Yang terakhir, update properti innerText dari `text` menjadi `You are in the town square. You see a sign that says Store.`
 
-```
+```JavaScript
+
 	function goTown() {
 	  button1.innerText = "Go to store";
 	  button2.innerText = "Go to cave";
@@ -101,7 +102,7 @@ Yang terakhir, update properti innerText dari `text` menjadi `You are in the tow
 Buat 1 function kosong dengan nama update lalu memiliki parameter `location`.
 
 
-```
+```JavaScript
 
 	function update(location){
 	
